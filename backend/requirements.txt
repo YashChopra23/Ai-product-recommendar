@@ -4,9 +4,7 @@ pandas
 numpy
 python-dotenv
 pinecone
-sentence-transformers
 google-generative-ai
-transformers
 Pillow
 requests
 matplotlib
