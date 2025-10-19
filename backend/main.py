@@ -14,7 +14,7 @@ from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
 
 # --- Load Environment Variables ---
-load_dotenv(dotenv_path="../.env") 
+load_dotenv()
 
 pinecone_api_key = os.getenv("PINECONE_API_KEY")
 google_api_key = os.getenv("GOOGLE_API_KEY")
@@ -34,7 +34,7 @@ genai_model = genai.GenerativeModel('gemini-2.5-flash')
 print("Generative AI model loaded.")
 
 try:
-    products_df = pd.read_pickle("../products_df.pkl")
+    products_df = pd.read_pickle("products_df.pkl")
     products_df = products_df.set_index('uniq_id')
     print("Product DataFrame loaded.")
 except FileNotFoundError:
