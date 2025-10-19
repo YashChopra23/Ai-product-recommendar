@@ -7,7 +7,7 @@ pinecone
 sentence-transformers
 google-generative-ai
 transformers
-torch
+torch --index-url https://download.pytorch.org/whl/cpu
 Pillow
 requests
 matplotlib
