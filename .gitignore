@@ -1,0 +1,18 @@
+
+# Secrets
+.env
+
+# Python Virtual Environment
+yashenv/
+
+# Python cache
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# Node.js dependencies
+frontend/node_modules/
+frontend/build/
+
+# OS files
+.DS_Store

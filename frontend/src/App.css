@@ -1,0 +1,150 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  margin: 0 0 15px 0;
+}
+
+/* --- Navigation --- */
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main-nav a {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.main-nav a:hover {
+  background-color: #4a4e57;
+}
+
+/* --- Page Content --- */
+.page-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Chat Container (from Home Page) --- */
+.chat-container {
+  text-align: left;
+}
+
+.input-area {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-area input {
+  flex-grow: 1;
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+.input-area button {
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.input-area button:disabled {
+  background-color: #aaa;
+}
+
+.error {
+  color: #d9534f;
+}
+
+.results-area {
+  text-align: left;
+}
+
+.product-card {
+  display: flex;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+.product-card .product-info h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.product-card .product-info .price {
+  font-size: 1em;
+  font-weight: bold;
+  color: #007bff;
+  margin: 0 0 10px 0;
+}
+
+.product-card .product-info .description {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0;
+}
+
+/* --- Analytics Page --- */
+.analytics-container {
+  text-align: left;
+}
+
+.plot-card {
+  background-color: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.plot-card h3 {
+  margin-top: 0;
+}
+
+.plot-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
