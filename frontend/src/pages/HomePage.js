@@ -15,7 +15,7 @@ function HomePage() {
     setProducts([]);
     
     try {
-      const response = await axios.post('http://localhost:8000/recommend', {
+      const response = await axios.post('https://my-product-backend.onrender.com/recommend', {
         query: query
       });
       setProducts(response.data.products);
